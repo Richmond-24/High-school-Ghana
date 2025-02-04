@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catholic Senior High Schools in Ghana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Header -->
+    <header class="bg-red text-white py-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-xl font-bold">
+                <h1>Catholic Senior High Schools in Ghana</h1>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="hover:underline">Home</a>
+                <a href="#schools" class="hover:underline">Schools</a>
+                <a href="#about" class="hover:underline">About</a>
+                <a href="#contact" class="hover:underline">Contact</a>
+            </nav>
+            <button id="menu-toggle" class="block md:hidden">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-gray-900 text-white">
+        <div class="container mx-auto py-16 text-center">
+            <h1 class="text-4xl font-bold mb-6">>Find the best private Senior High Schools in Ghana.</h1>
+        
+        </div>
+        <div class="relative h-64 md:h-96">
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+            <img src="https://via.placeholder.com/1600x400" alt="Hero Image" class="w-full h-full object-cover">
+        </div>
+    </section>
+
+    <!-- Schools Section -->
+    <section id="schools" class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold text-center mb-8">Catholic Senior High Schools</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="bg-white shadow-md rounded overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250" alt="School Name" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">School A</h3>
+                        <p class="text-gray-600 mt-2">Location: Accra</p>
+                        <a href="#" class="text-blue-600 mt-4 inline-block hover:underline">View Details</a>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250" alt="School Name" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">School B</h3>
+                        <p class="text-gray-600 mt-2">Location: Kumasi</p>
+                        <a href="#" class="text-blue-600 mt-4 inline-block hover:underline">View Details</a>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250" alt="School Name" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">School C</h3>
+                        <p class="text-gray-600 mt-2">Location: Tamale</p>
+                        <a href="#" class="text-blue-600 mt-4 inline-block hover:underline">View Details</a>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250" alt="School Name" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">School D</h3>
+                        <p class="text-gray-600 mt-2">Location: Cape Coast</p>
+                        <a href="#" class="text-blue-600 mt-4 inline-block hover:underline">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4">About Us</h2>
+            <p>We provide a comprehensive directory of private Senior High Schools in Ghana to help students and parents make informed decisions.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Private Senior High Schools in Ghana. All rights reserved.</p>
+            <p>Contact us at <a href="mailto:info@privateshsghana.com" class="text-blue-400 hover:underline">info@privateshsghana.com</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Menu Toggle -->
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const nav = document.querySelector('nav');
+
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
